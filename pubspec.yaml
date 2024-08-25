@@ -1,6 +1,6 @@
 name: j1_crash_handler
 description: A crash handler for the J1 apps.
-version: 1.0.0
+version: 1.0.1
 publish_to: none
 
 environment:
@@ -8,16 +8,10 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
-
   flutter:
     sdk: flutter
-  
-  j1_logger:
-    git:
-      url: https://github.com/J1-Apps/j1_logger.git
-      ref: v1.1.0
 
-  firebase_crashlytics: ^2.9.0
+  firebase_crashlytics: ^4.0.4
   get_it: ^7.7.0
 
 dev_dependencies:
@@ -30,6 +24,3 @@ dev_dependencies:
       ref: v1.0.0
 
   mocktail: ^1.0.4
-
-dependency_overrides:
-  plugin_platform_interface: ^2.1.3
