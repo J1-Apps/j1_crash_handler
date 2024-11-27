@@ -1,4 +1,4 @@
-library j1_crash_handler;
+library;
 
 export "firebase_crash_handler.dart";
 export "local_crash_handler.dart";
